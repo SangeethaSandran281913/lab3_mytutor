@@ -1,0 +1,318 @@
+/* Set a background color */
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(212, 51, 230, 0.164);
+  font-family: Georgia, serif;
+  background-size: cover;
+  background-position: center;
+}
+.checked {
+  color: rgb(233, 131, 233);
+}
+
+
+/* Style all input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display: none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+/* Footer */
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 5px;
+    }
+    
+    .row {margin: 0 -5px;}
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+      }
+    }
+    
+    .fa {font-size:20px;}
+.fa {
+
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-youtube {
+  color: white;
+}
+
+.fa-instagram {
+  color: white;
+}
+
+
+
+.fitImg {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.roundedImage{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.text {
+  text-align: justify;
+  overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+@media screen{
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+}
+@media screen and (max-width: 1000px) {
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+@media screen and (max-width: 600px) {
+.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+}
+/* Footer */
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+      /* Float four columns side by side */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 5px;
+      }
+      
+      .row {margin: 0 -5px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Responsive columns */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 10px;
+        }
+      }
+      
+      .fa {font-size:20px;}
+  .fa {
+  
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-twitter {
+    color: white;
+  }
+  
+  .fa-youtube {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  
+  
+  
+  .fitImg {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }
+  
+  .roundedImage{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .text {
+    text-align: justify;
+    overflow: hidden;
+     text-overflow: ellipsis;
+     display: -webkit-box;
+     -webkit-line-clamp: 3; 
+     -webkit-box-orient: vertical;
+  }.w3-grid-template {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 1200px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .w3-grid-template {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+hr {
+    margin: 0em;
+    border-width: 2px
+}
